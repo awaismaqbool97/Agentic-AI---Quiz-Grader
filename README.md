@@ -124,7 +124,7 @@ If the grader model returns a non-numeric score, a warning is logged.
     GOOGLE_API_KEY="AIzaSy..."
 
     # For Ollama (if not running on the default localhost) (make sure to run ollama first on cmd)
-    # OLLAMA_BASE_URL="[http://127.0.0.1:11434/](http://127.0.0.1:11434/)"
+    OLLAMA_BASE_URL="[http://127.0.0.1:11434/](http://127.0.0.1:11434/)"
     ```
 
 ---
