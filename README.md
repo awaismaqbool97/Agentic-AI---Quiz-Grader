@@ -150,21 +150,22 @@ python rollnumber_msds24035_grader.py \
 --out out/results.json \
 --logs logs/logs.jsonl \
 --model openai:gpt-4o-mini
-
+```
 
 #### **Using GeminiAI**
 ```bash
-python rollnumber_msds24035_grader.py \ 
+python rollnumber_msds24035_grader.py \
 --images quiz_pages/1.jpg quiz_pages/2.jpg quiz_pages/3.jpg quiz_pages/4.jpg \
 --out out/results.json \
 --logs logs/logs.jsonl \
 --model google:gemini-2.5-flash
-
+```
 
 #### **Using Local VLM (Ollama)**
 ```bash
-python rollnumber_msds24035_grader.py \ 
+python rollnumber_msds24035_grader.py \
 --images quiz_pages/1.jpg quiz_pages/2.jpg quiz_pages/3.jpg quiz_pages/4.jpg \
 --out out/results.json \
 --logs logs/logs.jsonl \
 --model ollama:qwen2.5vl:3b
+```
